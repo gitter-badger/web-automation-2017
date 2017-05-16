@@ -122,6 +122,27 @@ Bips are configured by defining a graph (hub) across nodes (channels). Channels 
 
 ## Home Assistant
 
-Home Assistant is an open source home automation platform,
+[Home Assistant](https://home-assistant.io/) is an open source home automation platform,
 It is designed to be deployed on any machine that is capable of running Python 3, from a Raspberry Pi to a NAS device.
 It integrates with a number of open-source as well as commercial offerings like IFTTT, weather information, Amazon Echo, but is targeted at controls of "smart" locks and lights.
+
+## Kibitzr
+
+[Kibitzr](https://kibitzr.github.io) outstands from the list in architecture.
+It doesn't provide user interface and doesn't require database to run.
+Kibitzr serves list of checks.
+Checks are defined in single YAML file.
+Each check is a pipeline of following steps:
+
+1. Fetch page;
+2. Pass it’s contents through sequence of transforms;
+3. Run set of notifiers with transformed content.
+
+Each step can contain arbitrary Bash or Python code snippets.
+
+Like Home Assistant, it can be launched whenever Python is available (Version 2 as well as 3).
+
+Being a late to the party, Kibitzr doesn't try to have all possible integrations built-in.
+Instead, it can be hooked to Zapier, or any other web automation provider for missing parts.
+
+Another strong aspect of Kibitzr is support for browser automation through Selenium scripts or simplified form filling (which covers most use cases).
