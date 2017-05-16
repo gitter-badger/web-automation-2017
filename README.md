@@ -2,20 +2,20 @@
 
 ## Purpose
 
-This document covers existing web automation projects, solutions and platforms.
+This document covers existing web automation projects, services, and platforms.
 
 It's targeted to people who just started automating or want to switch from shell scripts to some foundation.
 
 ## Overview
 
-Simple web automation scripts can be written in bash, or python.
-However this approach fails short in the face of network failures, different ways of delivering notifications and need to transform data.
+Simple web automation scripts can be written in bash or python.
+However, this approach fails short in the face of network failures, different ways of delivering notifications and need to transform data.
 
-Number of solutions tries to remove boilerplate from web automation tasks.
+A number of solutions try to remove boilerplate from web automation tasks.
 These solutions provide:
 
 * A foundation for making network requests and connecting them to actions.
-* Collection of recipies for solving common problems built on top of the foundation.
+* Collection of recipes for solving common problems built on top of the foundation.
 
 The common examples of web automation tasks include:
 
@@ -24,15 +24,15 @@ The common examples of web automation tasks include:
 * Building complex reminders
 
 The year of technology birth can be said to be 2011, when [Zapier](https://zapier.com) launched on [Startup Weekend](http://startupweekend.org/).
-Two years later number of open source alternatives emerged, most notably:
+Two years later a number of open source alternatives emerged, most notably:
 
 * [Huginn](https://github.com/huginn/huginn) - Multi-tenant web solution written and extendable in Ruby.
-* [Trigger-Happy](https://trigger-happy.eu/) - Similar solution, but with much less of recipies and written in Python.
+* [Trigger-Happy](https://trigger-happy.eu/) - Similar solution, but with much fewer recipes and written as a reusable Django application.
 
 And some paid services, with slightly different targeting:
 
 * [If This Than That](ifttt.com) - targeted on IoT and mobile devices.
-* [Bip.io](https://bip.io) - both open source and paid hosted.
+* [Bip.io](https://bip.io) - both open source and paid hosted solutions.
 
 Also worth mentioning open source solutions:
 
@@ -49,9 +49,9 @@ Browser automation complexity is an effect of following inherent properties of t
 
 * Interactions must be defined in terms of markup, which is rarely composed with this thought.
 * HTML structure is rigid and changes often.
-* Browsers communicate through network inheriting all it's failures and unreliability.
+* Browsers communicate through network inheriting all its failures and unreliability.
 
-But in many cases it's the only option to extract content from remote system.
+But in many cases, it's the only option to extract content from the remote system.
 Number of paid solutions exists aiming to simplify web scrapping:
 
 * [Import.io](https://import.io) - turns websites into structured APIs.
@@ -69,9 +69,9 @@ Huginn is a multi-tenant system for building agents that perform automated onlin
 
 Huginn started in 2013 and have built a broad community with hundreds of contributors and collected thousands of stars.
 
-Huginn organises directed graphs of events passing between different types of agents.
+Huginn organizes directed graphs of events passing between different types of agents.
 There are more than 50 types of agents.
-User builds pipelines of predefined agent types inside the browser.
+The user builds pipelines of predefined agent types inside the browser.
 
 Agents are written in Ruby language and are stored inside Huginn's subdirectory.
 
