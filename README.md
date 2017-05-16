@@ -39,7 +39,7 @@ Also worth mentioning open source solutions:
 * [Home Assistant](https://home-assistant.io/) - Platform for home automation with web automation capabilities.
 * [Kibitzr](https://kibitzr.github.io) - Command-line utility extendable with Python and Bash scripts.
 
-# Browser automation
+## Browser automation
 
 State of the art library for browser automation is [Selenium](selenium-python.readthedocs.io).
 It supports most popular platforms and browsers.
@@ -62,3 +62,18 @@ Libraries for parsing and scraping web pages:
 
 * [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/) - parses malformed HTML.
 * [Scrapy](https://scrapy.org/) - fast and powerful scraping and web crawling framework.
+
+## Huginn
+
+Huginn is a multi-tenant system for building agents that perform automated online tasks.
+
+Huginn started in 2013 and have built a broad community with hundreds of contributors and collected thousands of stars.
+
+Huginn organises directed graphs of events passing between different types of agents.
+There are more than 50 types of agents.
+User builds pipelines of predefined agent types inside the browser.
+
+Agents are written in Ruby language and are stored inside Huginn's subdirectory.
+
+For operating Huginn requires MySQL database and Nginx server.
+Installation is pretty involved, but well documented.
