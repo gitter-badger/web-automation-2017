@@ -8,7 +8,7 @@ I'm an enthusiast and not a professional user of all mentioned products, feel fr
 
 This document covers existing web automation projects, services, and platforms.
 
-It's targeted to people who just started automating or want to switch from shell scripts to some foundation.
+It's targeted to people who just started automating or want to switch from bunch shell scripts to more solid foundation.
 
 ## Overview
 
