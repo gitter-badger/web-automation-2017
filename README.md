@@ -69,7 +69,7 @@ Libraries for parsing and scraping web pages:
 
 ## Zapier 
 
-Zapier is the most popular web automation app.
+[Zapier](https://zapier.com) is the most popular web automation app.
 Zapier tasks are called Zaps.
 
 A Zap is a blueprint for a task you want to do over and over.
