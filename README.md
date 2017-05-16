@@ -32,7 +32,7 @@ Two years later number of open source alternatives emerged, most notably:
 And some paid services, with slightly different targeting:
 
 * [If This Than That](ifttt.com) - targeted on IoT and mobile devices.
-* [bip.io](https://bip.io) - both open source and paid hosted.
+* [Bip.io](https://bip.io) - both open source and paid hosted.
 
 Also worth mentioning open source solutions:
 
@@ -55,7 +55,7 @@ But in many cases it's the only option to extract content from remote system.
 Number of paid solutions exists aiming to simplify web scrapping:
 
 * [Import.io](https://import.io) - turns websites into structured APIs.
-* [https://scrapinghub.com/portia/](Portia) - lets you scrape web sites without any programming knowledge required.
+* [Portia](https://scrapinghub.com/portia/) - lets you scrape web sites without any programming knowledge required.
 * [Kimono](https://www.kimonolabs.com/) - manual tools for web page extraction.
 
 Libraries for parsing and scraping web pages:
