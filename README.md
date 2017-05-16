@@ -67,9 +67,27 @@ Libraries for parsing and scraping web pages:
 * [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/) - parses malformed HTML.
 * [Scrapy](https://scrapy.org/) - fast and powerful scraping and web crawling framework.
 
+## Zapier 
+
+Zapier is the most popular web automation app.
+Zapier tasks are called Zaps.
+
+A Zap is a blueprint for a task you want to do over and over.
+In words, a Zap looks like this: "When I get a new thing in A, do this other thing in B."
+The first part is the Trigger and the second part is the Action.
+
+Zapier supports hundreds of apps.
+You can mix and match triggers and actions to automate just about anything.
+
+An example might be "When I get a new entry from a Wufoo form, create a new lead in Salesforce."
+Zapier thrives for granularity.
+User can pick what fields from the trigger service should go to the action service.
+For instance, the phone number from Wufoo form should be the work phone of the new Salesforce lead.
+
 ## Huginn
 
-Huginn is a multi-tenant system for building agents that perform automated online tasks.
+[Huginn](https://github.com/huginn/huginn) is the closest alternative to Zapier.
+It's a multi-tenant system for building agents that perform automated online tasks.
 
 Huginn started in 2013 and have built a broad community with hundreds of contributors and collected thousands of stars.
 
@@ -81,3 +99,7 @@ Agents are written in Ruby language and are stored inside Huginn's subdirectory.
 
 For operating Huginn requires MySQL database and Nginx server.
 Installation is pretty involved, but well documented.
+
+## Trigger Happy
+
+[Trigger-Happy](https://trigger-happy.eu/) is similar to Huginn in design, but is implemented as a reusable Django application. Community is smaller, and project don't see much attention these days.
