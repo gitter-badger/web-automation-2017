@@ -1,5 +1,9 @@
 # The Hitchhiker's Guide to the Web Automation
 
+## Disclaimer
+
+I'm an enthusiast and not a professional user of all mentioned products, feel free to send corrections to [GitHub repository](https://github.com/peterdemin/web-automation-2017).
+
 ## Purpose
 
 This document covers existing web automation projects, services, and platforms.
