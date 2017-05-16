@@ -31,7 +31,7 @@ Two years later number of open source alternatives emerged, most notably:
 
 And some paid services, with slightly different targeting:
 
-* [If this than that](ifttt.com) - targeted on IoT and mobile devices.
+* [If This Than That](ifttt.com) - targeted on IoT and mobile devices.
 * [bip.io](https://bip.io) - both open source and paid hosted.
 
 Also worth mentioning open source solutions:
