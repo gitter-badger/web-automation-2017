@@ -1,8 +1,10 @@
-# State of Web Automation in 2017
+# The Hitchhiker's Guide to the Web Automation
 
 ## Purpose
 
 This document covers existing web automation projects, solutions and platforms.
+
+It's targeted to people who just started automating or want to switch from shell scripts to some foundation.
 
 ## TL;DR
 
