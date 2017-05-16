@@ -23,28 +23,31 @@ The common examples of web automation tasks include:
 * Aggregating digest of social network updates
 * Building complex reminders
 
-The year of technology birth can be said to be 2011
+The year of technology birth can be said to be 2011, when [Zapier](https://zapier.com) launched on [Startup Weekend](http://startupweekend.org/).
+Two years later number of open source alternatives emerged, most notably:
 
-Two major players in the field are [Zapier](https://zapier.com)
+* [Huginn](https://github.com/huginn/huginn) - Multi-tenant web solution written and extendable in Ruby.
+* [Trigger-Happy](https://trigger-happy.eu/) - Similar solution, but with much less of recipies and written in Python.
 
+And some paid services, with slightly different targeting:
 
-# Paid Services
+* [If this than that](ifttt.com) - targeted on IoT and mobile devices.
+* [bip.io](https://bip.io) - both open source and paid hosted.
 
-* Zapier
-* IFTTT
+Also worth mentioning open source solutions:
 
-Free alternatives:
+* [Home Assistant](https://home-assistant.io/) - Platform for home automation with web automation capabilities.
+* [Kibitzr](https://kibitzr.github.io) - Command-line utility extendable with Python and Bash scripts.
 
-* Huginn
-* bip.io
-* Trigger-Happy
-* Home Assistant
+# Browser automation
 
-Command-line tools:
+State of the art library for browser automation is [Selenium](selenium-python.readthedocs.io).
+It supports most popular platforms and browsers.
+However it's primary use case is web applications testing, it's tedious in configuration and has a high entry barrier.
 
-* Kibitzr
+Browser automation complexity is an effect of following inherent properties of the task:
 
-Libraries:
-
-* Selenium - browser automation
+* Interactions must be defined in terms of markup, which is rarely composed with this thought.
+* HTML structure is rigid and changes often.
+* Browsers communicate through network inheriting all it's failures and unreliability.
 
