@@ -51,3 +51,14 @@ Browser automation complexity is an effect of following inherent properties of t
 * HTML structure is rigid and changes often.
 * Browsers communicate through network inheriting all it's failures and unreliability.
 
+But in many cases it's the only option to extract content from remote system.
+Number of paid solutions exists aiming to simplify web scrapping:
+
+* [Import.io](https://import.io) - turns websites into structured APIs.
+* [https://scrapinghub.com/portia/](Portia) - lets you scrape web sites without any programming knowledge required.
+* [Kimono](https://www.kimonolabs.com/) - manual tools for web page extraction.
+
+Libraries for parsing and scraping web pages:
+
+* [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/) - parses malformed HTML.
+* [Scrapy](https://scrapy.org/) - fast and powerful scraping and web crawling framework.
