@@ -35,7 +35,7 @@ Two years later a number of open source alternatives emerged, most notably:
 
 And some paid services, with slightly different targeting:
 
-* [If This Than That](ifttt.com) - targeted on IoT and mobile devices.
+* [If This Than That](https://ifttt.com) - targeted on IoT and mobile devices.
 * [Bip.io](https://bip.io) - both open source and paid hosted solutions.
 
 Also worth mentioning open source solutions:
@@ -89,7 +89,7 @@ For instance, the phone number from Wufoo form should be the work phone of the n
 [Huginn](https://github.com/huginn/huginn) is the closest alternative to Zapier.
 It's a multi-tenant system for building agents that perform automated online tasks.
 
-Huginn started in 2013 and have built a broad community with hundreds of contributors and collected thousands of stars.
+Huginn started in 2013 and have built a broad community with hundreds of contributors.
 
 Huginn organizes directed graphs of events passing between different types of agents.
 There are more than 50 types of agents.
@@ -103,3 +103,25 @@ Installation is pretty involved, but well documented.
 ## Trigger Happy
 
 [Trigger-Happy](https://trigger-happy.eu/) is similar to Huginn in design, but is implemented as a reusable Django application. Community is smaller, and project don't see much attention these days.
+
+## IFTTT
+
+[IFTTT](https://ifttt.com) takes the idea of web automation and pushes it forward to wearables and smart home appliances. IFTTT provides applets, that can be installed on mobile device and hooked up to the platform.
+
+## Bipio
+
+[Bipio](https://bip.io) approaches web automation from a slightly different angle. Instead of providing API wrappers for popular online services, like Zapier, it bases on web hooks organized in graph pipelines.
+
+Bipio is a graph pipelining API talking RESTful JSON, where each node in your graph is responsible for performing a discrete unit of work, such a transforming messages, integrating "cloud" API's or many other types of web based RPC's. 
+
+This is a JSON API supporting REST and RPC endpoints over HTTP Basic Authenticated SSL. See endpoints for further connection info. JSONP is enabled by setting the ?callback=my_function query parameter. 
+
+The graph structures, 'bips', transform content between adjacent nodes. They can be reconfigured dynamically without requiring changes to the connecting client, ideal for rapid prototyping or any kind of interprotocol communication. 
+
+Bips are configured by defining a graph (hub) across nodes (channels). Channels perform a discrete unit of work and emit a predictable result, so as to be arranged on a bip's hub in meaningful ways. Collections of similar Channels reside in shared resource containers called Pods.
+
+## Home Assistant
+
+Home Assistant is an open source home automation platform,
+It is designed to be deployed on any machine that is capable of running Python 3, from a Raspberry Pi to a NAS device.
+It integrates with a number of open source as well as commercial offerings like IFTTT, weather information, Amazon Echo, but is targeted at controls of "smart" locks and lights.
