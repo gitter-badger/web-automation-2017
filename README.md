@@ -81,7 +81,7 @@ You can mix and match triggers and actions to automate just about anything.
 
 An example might be "When I get a new entry from a Wufoo form, create a new lead in Salesforce."
 Zapier thrives for granularity.
-User can pick what fields from the trigger service should go to the action service.
+The user can pick what fields from the trigger service should go to the action service.
 For instance, the phone number from Wufoo form should be the work phone of the new Salesforce lead.
 
 ## Huginn
@@ -102,17 +102,17 @@ Installation is pretty involved, but well documented.
 
 ## Trigger Happy
 
-[Trigger-Happy](https://trigger-happy.eu/) is similar to Huginn in design, but is implemented as a reusable Django application. Community is smaller, and project don't see much attention these days.
+[Trigger-Happy](https://trigger-happy.eu/) is similar to Huginn in design but is implemented as a reusable Django application. The community is smaller, and the project doesn't see much attention these days.
 
 ## IFTTT
 
-[IFTTT](https://ifttt.com) takes the idea of web automation and pushes it forward to wearables and smart home appliances. IFTTT provides applets, that can be installed on mobile device and hooked up to the platform.
+[IFTTT](https://ifttt.com) takes the idea of web automation and pushes it forward to wearables and smart home appliances. IFTTT provides applets, that can be installed on a mobile device and hooked up to the platform.
 
 ## Bipio
 
 [Bipio](https://bip.io) approaches web automation from a slightly different angle. Instead of providing API wrappers for popular online services, like Zapier, it bases on web hooks organized in graph pipelines.
 
-Bipio is a graph pipelining API talking RESTful JSON, where each node in your graph is responsible for performing a discrete unit of work, such a transforming messages, integrating "cloud" API's or many other types of web based RPC's. 
+Bipio is a graph pipelining API talking RESTful JSON, where each node in your graph is responsible for performing a discrete unit of work, such a transforming messages, integrating "cloud" API or many other types of web-based RPC's. 
 
 This is a JSON API supporting REST and RPC endpoints over HTTP Basic Authenticated SSL. See endpoints for further connection info. JSONP is enabled by setting the ?callback=my_function query parameter. 
 
@@ -124,4 +124,4 @@ Bips are configured by defining a graph (hub) across nodes (channels). Channels 
 
 Home Assistant is an open source home automation platform,
 It is designed to be deployed on any machine that is capable of running Python 3, from a Raspberry Pi to a NAS device.
-It integrates with a number of open source as well as commercial offerings like IFTTT, weather information, Amazon Echo, but is targeted at controls of "smart" locks and lights.
+It integrates with a number of open-source as well as commercial offerings like IFTTT, weather information, Amazon Echo, but is targeted at controls of "smart" locks and lights.
